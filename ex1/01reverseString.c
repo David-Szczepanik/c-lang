@@ -4,7 +4,6 @@
 void reverseStr(char str[]) {
 	int len = strlen(str);
 	int i, j;
-
 	for (i = 0, j = len - 1; i < j; i++, j--) {
 		char temp = str[i];
 		str[i] = str[j];
@@ -15,7 +14,7 @@ void reverseStr(char str[]) {
 void reversePrint(char str[]){
 	int length = strlen(str);
 
-	for (int i = length - 1; i >= 0; i--) {
+	for (int i = length -1; i >= 0; i--) {
 		printf("%c",str[i]);
 	}
 	printf("\n");

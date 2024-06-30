@@ -3,3 +3,5 @@
 !.gitignore
 !ex1
 !ch01
+!Makefile
+!makefileAutocomplete.sh
